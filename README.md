@@ -15,7 +15,7 @@ A McOsu file handler for .osz/osk files.
 using the latest version of both [git](https://git-scm.com/) and [go](https://golang.org/dl/):
 ```sh
 git clone https://github.com/nina-x/hikariAssist
-cd hikari
-go run .
+cd hikariAssist
+go run . {osz/osk path}
 
 ```
