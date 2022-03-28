@@ -97,14 +97,6 @@ func main() {
 	moveSong(mcOsuPath, destination, extension, noExtension)
 }
 
-func counter() {
-	i := 0
-	for {
-		time.Sleep(time.Second * 1)
-		i++
-	}
-}
-
 func moveSong(dir string, destination string, extension string, name string) {
 	switch extension {
 	case ".osz":
